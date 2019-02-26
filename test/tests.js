@@ -1,18 +1,7 @@
 import './html-equal.js';
+import makeImageTemplate from '../src/image-function.js';
 
 const test = QUnit.test;
-
-function makeImageTemplate(image) {
-    const html = 
-    `
-<li>Unicorn Head
-        <img src="https://www.dhresource.com/0x0s/f2-albu-g5-M00-1A-11-rBVaI1hsIIiALxKzAAIHjSU3VkE490.jpg/wholesale-halloween-costume-prop-unicorn.jpg">
-        </li>`;
-
-    const template = document.createElement('template');
-    template.innerHTML = html;
-    return template.content;
-}
 
 test('create a test that displays listed HTML images dynamically', function(assert) {
     //Arrange
