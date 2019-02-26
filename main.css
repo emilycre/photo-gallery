@@ -1,0 +1,17 @@
+#image-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+}
+
+#image-list li {
+    list-style: none;
+    width: 200px;
+}
+
+#image-list img {
+    width: 100%;
+}
