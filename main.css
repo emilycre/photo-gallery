@@ -1,3 +1,7 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #image-list {
     display: flex;
     flex-direction: row;
@@ -11,6 +15,8 @@
     list-style: none;
     width: 200px;
     margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 #image-list img {
